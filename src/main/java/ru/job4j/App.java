@@ -1,7 +1,12 @@
 package ru.job4j;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String str = "";
+        int x = 2;
+        str = x > 3 ? "a" : "b";
     }
 }
